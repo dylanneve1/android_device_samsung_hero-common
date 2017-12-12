@@ -241,6 +241,18 @@
     <!-- The device supports freeform window management -->
     <bool name="config_freeformWindowManagement">true</bool>
 
+    <!-- Default list of files pinned by the Pinner Service -->
+    <string-array translatable="false" name="config_defaultPinnerServiceFiles">
+        <item>"/system/framework/arm64/boot-framework.oat"</item>
+        <item>"/system/framework/arm64/boot-framework.vdex"</item>
+        <item>"/system/framework/oat/arm64/services.odex"</item>
+        <item>"/system/framework/oat/arm64/services.vdex"</item>
+        <item>"/system/framework/arm64/boot.oat"</item>
+        <item>"/system/framework/arm64/boot.vdex"</item>
+        <item>"/system/framework/arm64/boot-core-libart.oat"</item>
+        <item>"/system/framework/arm64/boot-core-libart.vdex"</item>
+   </string-array>
+
     <!-- Flag indicating whether strict threshold is used, or lenient threshold is used,
             when evaluating RSRP for LTE antenna bar display
            0. Strict threshold
